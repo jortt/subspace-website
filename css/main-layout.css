@@ -10,6 +10,7 @@ body{
     line-height: 1.6em;
 }
 
+
 #header {
      margin: 0;
      color: #333;
@@ -33,6 +34,15 @@ body{
     margin: 50px 0 20px 0;
     font-weight: 300;
     color: #888;
+}
+
+/*Style for spacing in the written sections */
+.written-right{
+	padding-left: 1em;
+}
+
+.written-left{
+	padding-right: 1em;
 }
 
 /*Style for the legal footer*/
