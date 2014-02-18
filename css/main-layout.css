@@ -45,6 +45,10 @@ body{
 	padding-right: 1em;
 }
 
+.retractable{
+	display: none;
+}
+
 /*Style for the legal footer*/
 
 #legal{

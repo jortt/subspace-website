@@ -33,3 +33,15 @@
     };
 
 }(this, this.document));
+
+function retractElement( name ){
+	x = document.getElementById( name );
+	if (x.style.display == "block")
+	{
+		x.style.display = "none";
+	}
+	else
+	{
+		x.style.display = "block";
+	}
+}
