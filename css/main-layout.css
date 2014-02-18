@@ -49,6 +49,14 @@ body{
 	display: none;
 }
 
+.clickable{
+	cursor: pointer; cursor: hand;
+}
+
+	.clickable:hover{
+		color: #7c3431;
+	}
+
 /*Style for the legal footer*/
 
 #legal{
