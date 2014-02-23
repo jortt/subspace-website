@@ -82,8 +82,9 @@ body{
 .profile-showcase{
 	max-width: 600px;
 	margin: 0 auto;
-	padding: 1em;
+	padding: 0.5em 1em;
 	background: #7c3431;
+	border: 1px solid black;
 }
 
 	.profile-showcase a{
@@ -110,5 +111,10 @@ body{
 }
 
 .profile-pic img{
-	height: 100px;
+	height: 75px;
+}
+
+/*Style for actual profile*/
+.profile{
+	padding-top: 1em;
 }
