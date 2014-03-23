@@ -85,6 +85,7 @@ body{
 	padding: 0.5em 1em;
 	background: #7c3431;
 	border: 1px solid black;
+	border-radius: 10px;
 }
 
 	.profile-showcase a{
@@ -111,10 +112,25 @@ body{
 }
 
 .profile-pic img{
-	height: 75px;
+	height: 70px;
+	float: right;
 }
 
-/*Style for actual profile*/
-.profile{
+.profile-pic img:hover{
+	height: 84px;
+	margin: -7px;
+}
+
+/*Style for actual profile pages*/
+.profile-page{
 	padding-top: 1em;
+}
+
+.profile-page-name{
+	font-size: 3em;
+	margin-left: 20px;
+}
+
+.profile-page-rank{
+	margin-left: 20px;
 }
